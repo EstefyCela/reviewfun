@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
+    <title>Reseñas</title>
+</head>
+<body>
+    <div class="logo">
+        <div>
+            <img src="logo.png" alt="logo">
+        </div>
+    </div>
+
+    <div class="contenido ocultar">
+    <header>
+    <h1 class="sec"><a href="index.html">Mis reseñas</a></h1>
+    <h1 class="sec"><a href="index2.html">Próximas películas</a></h1>
+    </header>
+    
+    <input type="button" value="+" id="nueva">
+
+    <aside>
+        <div>
+            <button id="cerrar">X</button>
+        </div>
+        <form id="formreseñas">
+            <input type="text" placeholder="Título..." id="titulo" required>
+            <textarea id="contenido" cols="30" rows="10" placeholder="Tu reseña..." required></textarea>
+            <input type="submit" value="guardar" id="guardar">
+        </form>
+    </aside>
+
+    <section>
+
+    </section>
+
+    <footer>
+        <button class="botones" id="masinfo"><a href="index3.html">+info</a></button>
+        <button class="botones" id="nombre" >Review&Fun</button>
+    </footer>
+    </div>
+    <script src="./code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
+
